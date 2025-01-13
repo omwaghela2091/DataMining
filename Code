@@ -234,7 +234,7 @@ best_clf.fit(X_train_s, y_train_s)
 test_prediction = best_clf.predict(Test)
 row_number = np.linspace(1,1647,1647)
 
-file_name = 'BMI555IEE520_Results2018_MayurWaghela.csv'
+file_name = 'BMI555IEE520_Results2018_OmWaghela.csv'
 final_result = pd.DataFrame(row_number)
 final_result['pred'] = test_prediction
 final_result.to_csv(Working_Directory + 'Results/' + file_name, 
